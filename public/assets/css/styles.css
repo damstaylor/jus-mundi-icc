@@ -2,6 +2,28 @@
 @import url(./font_larken.css);
 @import url(./font_lato.css);
 
+:root {
+  --primary-color: #009EFE;
+  --secondary-color: #3D8CBC;
+  --tertiary-color: #6AD300;
+  --primary-text-color: #2C2B2E;
+  --secondary-text-color: #818487;
+  --primary-bg-color: #FFFFFF;
+  --scondary-bg-color: #F4F6F8;
+}
+
 body {
   font-family: 'IBM Plex Sans';
+  margin: 47px 65px 158px;
+}
+
+span {
+  font-family: 'Lato';
+  font-size: 14px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: 2px;
+  color: var(--secondary-text-color);
 }

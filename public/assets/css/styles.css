@@ -1,0 +1,7 @@
+@import url(./font_ibm_plex_sans.css);
+@import url(./font_larken.css);
+@import url(./font_lato.css);
+
+body {
+  font-family: 'IBM Plex Sans';
+}

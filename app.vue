@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div class="content-wrapper">
+      <SecondContent />
       <Newsfeed :articles="newsfeedArticles" />
       <Footer :items="imagePaths" />
     </div>

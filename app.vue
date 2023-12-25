@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div class="content-wrapper">
+      <MainContent />
       <SecondContent />
       <Newsfeed :articles="newsfeedArticles" />
       <Footer :items="imagePaths" />
@@ -49,7 +50,7 @@ export default {
 #app {
   height: 100%;
   max-width: 1308px;
-  margin: auto;
+  margin: 32px auto;
   text-align: center;
   display: flex;
   flex-direction: column;

@@ -16,12 +16,36 @@
           Arbitration awards and related documents made as of 1 January 2019</p>
       </section>
     </div>
+    <div class="advantage-cards">
+      <AdvantageCard v-for="(adv, idx) in advantages" v-bind="adv" :key="`ac-${idx}`" />
+    </div>
   </div>
 </template>
 <script>
 export default {
   name: 'SecondContent',
   props: {
+  },
+  data() {
+    return {
+      advantages: [
+        {
+          imageUrl: 'assets/images/morecontent_icon.svg',
+          title: 'More key arbitration content',
+          text: 'This unique partnership means you will have access to more key arbitration content to level up your arbitration research.'
+        },
+        {
+          imageUrl: 'assets/images/transparency_icon.svg',
+          title: 'More transparency',
+          text: 'You will appreciate the increase in transparency in arbitration!'
+        },
+        {
+          imageUrl: 'assets/images/efficiency_icon.svg',
+          title: 'More efficiency',
+          text: 'Jus Mundi’s AI-powered technology efficiently delivers thorough legal research and due diligence with full confidence.'
+        },
+      ]
+    }
   },
 }
 </script>
@@ -53,6 +77,10 @@ export default {
       height: 2px;
       width: 24px;
     }
+  }
+
+  .advantage-cards {
+    display: flex;
   }
 }
 </style>

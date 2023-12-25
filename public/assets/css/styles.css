@@ -13,6 +13,7 @@
 }
 
 body {
+  color: var(--primary-text-color);
   font-family: 'IBM Plex Sans';
   margin: 0;
   height: 100vh;
@@ -23,7 +24,6 @@ body {
 }
 
 h1 {
-  color: var(--primary-text-color);
   font-kerning: none;
   font-feature-settings: 'liga' off;
   font-family: Larken;
@@ -36,7 +36,6 @@ h1 {
 }
 
 h2 {
-  color: var(--primary-text-color);
   font-kerning: none;
   font-feature-settings: 'liga' off;
   font-family: Larken;
@@ -46,6 +45,14 @@ h2 {
   line-height: 40px; /* 125% */
   letter-spacing: -0.5px;
   margin: 0;
+}
+
+h3 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 177.778% */
+  margin: 0 0 8px;
 }
 
 h4 {
@@ -70,7 +77,6 @@ p {
 }
 
 a {
-  color: var(--primary-text-color);
   font-family: Lato;
   font-size: 14px;
   font-style: normal;

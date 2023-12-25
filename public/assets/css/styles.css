@@ -9,12 +9,13 @@
   --primary-text-color: #2C2B2E;
   --secondary-text-color: #818487;
   --primary-bg-color: #FFFFFF;
-  --scondary-bg-color: #F4F6F8;
+  --secondary-bg-color: #F4F6F8;
 }
 
 body {
   font-family: 'IBM Plex Sans';
-  margin: 47px 65px 158px;
+  margin: 0;
+  height: 100vh;
 }
 
 span {

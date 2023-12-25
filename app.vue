@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <Footer :items="imagePaths" />
+    <div class="content-wrapper">
+      <Footer :items="imagePaths" />
+    </div>
   </div>
 </template>
 <script>
@@ -35,11 +37,16 @@ export default {
 @import url('@/public/assets/css/styles.css');
 
 #app {
-  height: 100vh;
+  height: 100%;
   max-width: 1308px;
+  margin: auto;
   text-align: center;
   display: flex;
   flex-direction: column;
-  margin: auto;
+  align-items: center;
+}
+
+.content-wrapper {
+  width: 100%;
 }
 </style>

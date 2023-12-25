@@ -16,9 +16,9 @@ export default {
 <style scoped>
 .logos {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 64px;
-  margin: 64px 0;
+  padding: 64px 0;
 }
 
 .img-container {
@@ -27,6 +27,7 @@ export default {
 
 img {
   width: 100%;
+  max-width: 165px;
   height: auto;
   object-fit: scale-down;
 }

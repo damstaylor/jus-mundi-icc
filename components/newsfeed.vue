@@ -50,10 +50,6 @@ export default {
         margin: 0 64px;
       }
     }
-
-    .read-all-news a {
-      padding: 16px 0;
-    }
   }
 }
 </style>

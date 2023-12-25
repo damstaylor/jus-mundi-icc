@@ -27,6 +27,7 @@ export default {
 </script>
 <style scoped>
 .second-content {
+  margin-top: 38px;
   margin-bottom: 32px;
 
   & section {

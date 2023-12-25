@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div class="content-wrapper">
+      <Newsfeed :articles="newsfeedArticles" />
       <Footer :items="imagePaths" />
     </div>
   </div>
@@ -23,7 +24,15 @@ export default {
         'denton',
         'threecrown',
         'gibson-dunn',
-      ]
+      ],
+      newsfeedArticles: [
+        { title: 'Corsair becomes the latest airline to pilot ICC AOKpass' },
+        { title: 'ICC warns EU vaccine export controls must be rolled back without delay' },
+        { title: 'Eduardo Silva Romero talks of advancing diversity, scope of ICC Institute as new Chair' },
+        { title: 'ICC/UNICEF: Funding shortfalls and supply chain challenges threaten equitable vaccine distribution' },
+        { title: 'ICC Trading Thoughts with Karima-Catherine Goundiam, founder of B2beeMatch' },
+        { title: 'Guest blog: Making arbitration work in a down market' },
+      ],
     }
   },
   computed: {
@@ -48,5 +57,6 @@ export default {
 
 .content-wrapper {
   width: 100%;
+  height: 100%;
 }
 </style>

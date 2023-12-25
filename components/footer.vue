@@ -12,8 +12,10 @@ export default {
   props: {
     items: { type: Array, default: () => [] },
   },
-  components: {Logos},
 }
 </script>
 <style scoped>
+.footer {
+  margin: 32px 0;
+}
 </style>

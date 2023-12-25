@@ -18,13 +18,54 @@ body {
   height: 100vh;
 }
 
+#__nuxt {
+  height: 100%;
+}
+
+h2 {
+  color: var(--primary-text-color);
+  font-kerning: none;
+  font-feature-settings: 'liga' off;
+  font-family: Larken;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 125% */
+  letter-spacing: -0.5px;
+  margin: 0;
+}
+
+h4 {
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 0 16px 0;
+}
+
+a {
+  color: var(--primary-text-color);
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
 span {
   font-family: 'Lato';
   font-size: 14px;
   text-transform: uppercase;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px; /* 114.286% */
+  line-height: 16px;
   letter-spacing: 2px;
   color: var(--secondary-text-color);
 }

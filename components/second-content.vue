@@ -29,8 +29,16 @@ export default {
 .second-content {
   margin-bottom: 32px;
 
-  & p {
-    margin-bottom: 32px;
+  & section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 862px;
+    margin: auto;
+
+    & p {
+      margin-bottom: 32px;
+    }
   }
 
   .heading {

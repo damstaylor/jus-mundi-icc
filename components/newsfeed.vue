@@ -7,7 +7,7 @@
     <div class="slider-container">
       <div class="slider">
         <div class="mini-cards">
-          <MiniCard v-for="article in articles" :title="article.title" />
+          <MiniCard v-for="(article, idx) in articles" :title="article.title" :key="`mc-${idx}`" />
         </div>
       </div>
       <div class="read-all-news">

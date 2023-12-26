@@ -55,6 +55,7 @@ export default {
   & footer {
     display: flex;
     height: 120px;
+    margin-top: -55px; /* To be improved */
   }
 
   .line-container {

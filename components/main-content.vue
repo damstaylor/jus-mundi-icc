@@ -118,6 +118,10 @@ export default {
       width: 582px;
       margin-bottom: 93px;
     }
+
+    .button {
+      z-index: 1;
+    }
   }
 }
 </style>

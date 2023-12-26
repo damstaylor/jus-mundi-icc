@@ -2,6 +2,8 @@
   <main class="main-content">
     <div class="two-columns">
       <div class="left">
+        <CircularIcon icon="assets/images/logo_icc.svg" variant="large" class="icc-icon" />
+        <CircularIcon icon="assets/images/logo_jm.svg" transparent class="jm-icon" />
         <img class="animation" src="assets/images/case_bg.gif" alt="Animation" />
       </div>
       <div class="right">
@@ -43,11 +45,29 @@ export default {
   }
 
   .left {
-    margin-top: auto;
-
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+    
     .animation {
       width: 478px;
       height: 496px;
+      margin-top: auto;
+    }
+
+    .circular-icon {
+      position: absolute;
+    }
+
+    .icc-icon {
+      top: -120px;
+      left: -48px;
+    }
+
+    .jm-icon {
+      bottom: 72px;
+      left: 0;
     }
   }
 

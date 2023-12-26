@@ -7,7 +7,7 @@
     <div class="two-columns">
       <div class="left">
         <CircularIcon icon="assets/images/logo_icc.svg" variant="large" class="icc-icon" />
-        <CircularIcon icon="assets/images/logo_jm.svg" transparent class="jm-icon" />
+        <CircularIcon icon="assets/images/logo_jm.svg" :opacity=".75" class="jm-icon" />
         <img class="animation" src="assets/images/case_bg.gif" alt="Animation" />
       </div>
       <div class="right">

@@ -1,5 +1,5 @@
 <template>
-  <div class="circular-icon" :class="[variant, { transparent: transparent }]">
+  <div class="circular-icon" :class="variant" :style="`opacity: ${opacity};`">
     <img :src="icon" :alt="alt" />
   </div>
 </template>
@@ -12,7 +12,7 @@ export default {
     variant: { type: String, default: 'medium' },
     size: { type: String, default: '128px' },
     backgroundColor: { type: String, default: '' },
-    transparent: { type: Boolean, default: false },
+    opacity: { type: Number, default: 1 },
   },
 }
 </script>
@@ -40,10 +40,6 @@ export default {
   &.large {
     width: 483px;
     height: 483px;
-  }
-
-  &.transparent {
-    background-color: rgba(255, 255, 255, .2);
   }
 }
 </style>

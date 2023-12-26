@@ -20,8 +20,11 @@
       </div>
     </div>
     <footer>
-      <Line />
-      <Line rotate="45deg" />
+      <div class="gradient-rectangle"></div>
+      <div class="line-container">
+        <Line rotate="90deg" />
+        <Line rotate="45deg" />
+      </div>
     </footer>
   </main>
 </template>
@@ -41,15 +44,37 @@ export default {
     margin: 24px 0;
   }
 
-  & header, & footer {
-    /* height: 64px; */
+  & header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    margin: 15px 0;
+    padding: 15px 0;
+    margin-bottom: 78px;
+  }
+
+  & footer {
+    display: flex;
+    height: 120px;
+  }
+
+  .line-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  & .gradient-rectangle {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #F5F5F5 69.79%);
+    position: absolute;
+    right: 0;
+    width: 100vw;
+    height: 120px;
   }
 
   .two-columns {
     display: flex;
+    justify-content: space-between;
     gap: 48px;
   }
 
@@ -70,8 +95,8 @@ export default {
     }
 
     .icc-icon {
-      top: -120px;
-      left: -48px;
+      top: -152px;
+      left: 0;
     }
 
     .jm-icon {

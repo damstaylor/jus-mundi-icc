@@ -28,6 +28,7 @@ export default {
   border-radius: 8px;
   font-size: 16px;
   line-height: 24px;
+  cursor: pointer;
 
   .frame {
     display: flex;
@@ -48,6 +49,10 @@ export default {
     text-transform: none;
     font-weight: 400;
     letter-spacing: 0;
+    
+    &:hover {
+      color: unset;
+    }
   }
 }
 </style>

@@ -48,9 +48,9 @@ export default {
 @import url('@/public/assets/css/styles.css');
 
 #app {
-  height: 100%;
   max-width: 1308px;
   margin: 32px auto;
+  padding: 0 65px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -59,6 +59,5 @@ export default {
 
 .content-wrapper {
   width: 100%;
-  height: 100%;
 }
 </style>

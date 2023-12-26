@@ -60,8 +60,9 @@ export default {
   .line-container {
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: space-between;
+    padding-bottom: 53px;
   }
 
   & .gradient-rectangle {
@@ -109,6 +110,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: start;
+    margin-right: 57px;
     padding-bottom: 24px;
 
     .text {

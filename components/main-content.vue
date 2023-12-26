@@ -41,7 +41,7 @@ export default {
 
   & p {
     text-align: inherit;
-    margin: 24px 0;
+    margin-top: 32px;
   }
 
   & header {
@@ -115,7 +115,7 @@ export default {
 
     .text {
       width: 582px;
-      margin-bottom: 70px;
+      margin-bottom: 93px;
     }
   }
 }

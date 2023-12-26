@@ -3,9 +3,9 @@
     <TestimonialCard />
     <div class="texts">
       <div class="heading">
-        <div class="line" />
+        <Line />
         <h1>Why this partnership?</h1>
-        <div class="line" />
+        <Line />
       </div>
       <section class="ps">
         <p>Throughout its 100-year history, ICC has brought global business together to support an international

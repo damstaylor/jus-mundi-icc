@@ -1,5 +1,9 @@
 <template>
   <main class="main-content">
+    <header>
+      <Line />
+      <Button text="Try Jus Mundi" icon="assets/images/ico-arrow_up.svg" variant="secondary" />
+    </header>
     <div class="two-columns">
       <div class="left">
         <CircularIcon icon="assets/images/logo_icc.svg" variant="large" class="icc-icon" />
@@ -15,6 +19,10 @@
         <Button text="Access ICC Awards" icon="assets/images/arrow_right.svg" />
       </div>
     </div>
+    <footer>
+      <Line />
+      <Line rotate="45deg" />
+    </footer>
   </main>
 </template>
 <script>
@@ -33,10 +41,11 @@ export default {
     margin: 24px 0;
   }
 
-  & header {
-    height: 64px;
+  & header, & footer {
+    /* height: 64px; */
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    margin: 15px 0;
   }
 
   .two-columns {
@@ -49,7 +58,7 @@ export default {
     flex-direction: column;
     align-items: end;
     position: relative;
-    
+
     .animation {
       width: 478px;
       height: 496px;

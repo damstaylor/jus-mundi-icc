@@ -2,13 +2,13 @@
   <main class="main-content">
     <header>
       <Line />
-      <Button text="Try Jus Mundi" icon="assets/images/ico-arrow_up.svg" variant="secondary" />
+      <Button text="Try Jus Mundi" :icon="imgPath('ico-arrow_up.svg')" variant="secondary" />
     </header>
     <div class="two-columns">
       <div class="left">
-        <CircularIcon icon="assets/images/logo_icc.svg" variant="large" class="icc-icon" />
-        <CircularIcon icon="assets/images/logo_jm.svg" :opacity=".75" class="jm-icon" />
-        <img class="animation" src="assets/images/case_bg.gif" alt="Animation" />
+        <CircularIcon :icon="imgPath('logo_icc.svg')" variant="large" class="icc-icon" />
+        <CircularIcon :icon="imgPath('logo_jm.svg')" :opacity=".75" class="jm-icon" />
+        <img class="animation" :src="imgPath('case_bg.gif')" alt="Animation" />
       </div>
       <div class="right">
         <div class="text">
@@ -16,7 +16,7 @@
           <p>The International Chamber of Commerce (ICC) & Jus Mundi have joined forces to make ICC Arbitration Awards and
             related materials freely available to the global legal community.</p>
         </div>
-        <Button text="Access ICC Awards" icon="assets/images/arrow_right.svg" />
+        <Button text="Access ICC Awards" :icon="imgPath('arrow_right.svg')" />
       </div>
     </div>
     <footer>
@@ -32,6 +32,11 @@
 export default {
   name: 'MainContent',
   props: {
+  },
+  methods: {
+    imgPath(filename) {
+      return `assets/images/${filename}`
+    },
   },
 }
 </script>

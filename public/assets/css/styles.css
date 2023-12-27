@@ -101,6 +101,17 @@ span {
   color: var(--secondary-text-color);
 }
 
+.container-margin {
+  max-width: 1440px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.side-padding {
+  padding-left: 64px !important;
+  padding-right: 64px !important;
+}
+
 .quote {
   font-family: 'Larken';
   font-size: 18px;

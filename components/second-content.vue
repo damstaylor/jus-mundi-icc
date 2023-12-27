@@ -1,5 +1,5 @@
 <template>
-  <div class="second-content">
+  <div class="second-content container-margin">
     <TestimonialCard />
     <div class="texts">
       <div class="heading">

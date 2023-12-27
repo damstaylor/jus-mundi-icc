@@ -1,5 +1,5 @@
 <template>
-  <main class="main-content">
+  <main class="main-content container-margin side-margin">
     <header>
       <Line />
       <Button text="Try Jus Mundi" :icon="imgPath('ico-arrow_up.svg')" variant="secondary" />

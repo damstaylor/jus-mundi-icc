@@ -48,9 +48,6 @@ export default {
 @import url('@/public/assets/css/styles.css');
 
 #app {
-  max-width: 1308px;
-  margin: 32px auto;
-  padding: 0 65px;
   text-align: center;
   display: flex;
   flex-direction: column;

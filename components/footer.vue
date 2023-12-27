@@ -1,11 +1,12 @@
 <template>
-  <footer class="footer">
-    <span>Trusted by the best arbitration teams worldwide</span>
-    <Logos :items="items" />
+  <footer class="footer container-margin">
+    <div class="footer-content">
+      <span>Trusted by the best arbitration teams worldwide</span>
+      <Logos :items="items" />
+    </div>
   </footer>
 </template>
 <script>
-import Logos from './logos.vue'
 
 export default {
   name: 'Footer',
@@ -15,7 +16,7 @@ export default {
 }
 </script>
 <style scoped>
-.footer {
-  margin: 32px 0;
+.footer-content {
+  margin: 32px 64px;
 }
 </style>

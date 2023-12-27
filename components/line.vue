@@ -1,5 +1,5 @@
 <template>
-  <div class="line" :style="lineStyle">
+  <div class="line" :style="getStyle">
   </div>
 </template>
 <script scoped>
@@ -12,7 +12,7 @@ export default {
     color: { type: String, default: '' },
   },
   computed: {
-    lineStyle() {
+    getStyle() {
       return `
         height: ${this.height};
         width: ${this.width};

@@ -4,7 +4,7 @@
       <MainContent />
       <SecondContent />
       <Newsfeed :articles="newsfeedArticles" />
-      <Footer :items="logoAttributes" />
+      <Footer :items="getLogoAttributes" />
     </div>
   </div>
 </template>
@@ -38,7 +38,7 @@ export default {
     }
   },
   computed: {
-    logoAttributes() {
+    getLogoAttributes() {
       return this.logos.map(str => ({ src: `./assets/logos/${str}.svg`, alt: str }))
     },
   },

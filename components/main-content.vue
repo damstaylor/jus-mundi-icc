@@ -6,8 +6,8 @@
     </header>
     <div class="two-columns">
       <div class="left">
-        <CircularIcon :icon="imgPath('logo_icc.svg')" variant="large" class="icc-icon" />
-        <CircularIcon :icon="imgPath('logo_jm.svg')" :opacity=".75" class="jm-icon" />
+        <CircularIcon :src="imgPath('logo_icc.svg')" alt="ICC logo" size="483px" class="icc-icon" />
+        <CircularIcon :src="imgPath('logo_jm.svg')" alt="JM logo" size="167px" :opacity=".75" class="jm-icon" />
         <img class="animation" :src="imgPath('case_bg.gif')" alt="Animation" />
       </div>
       <div class="right">

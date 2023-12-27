@@ -115,7 +115,7 @@ export default {
   .right {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     margin-right: 57px;
     padding-bottom: 24px;
 

@@ -2,7 +2,7 @@
   <div class="testimonial-card">
     <figure>
       <blockquote>
-        <div class="image-wrapper" style="justify-content: start;">
+        <div class="image-wrapper" style="justify-content: flex-start;">
           <img class="image" alt="Quote sign 1" src="assets/images/quote_2.svg" />
         </div>
         <p class="quote">Jus Mundi is an indispensable tool to meet the needs of our clients! It is cost-effective and

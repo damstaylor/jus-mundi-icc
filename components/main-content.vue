@@ -81,50 +81,50 @@ export default {
     display: flex;
     justify-content: space-between;
     gap: 48px;
-  }
-
-  .left {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    position: relative;
-
-    .animation {
-      width: 478px;
-      height: 496px;
-      margin-top: auto;
-    }
-
-    .circular-icon {
-      position: absolute;
-    }
-
-    .icc-icon {
-      bottom: 214px;
-      left: 30px;
-    }
-
-    .jm-icon {
-      bottom: 64px;
-      left: 84px;
-    }
-  }
-
-  .right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-right: 57px;
-    padding-bottom: 24px;
-
-    .text {
-      width: 582px;
-      margin-bottom: 93px;
-    }
-
-    .button {
-      z-index: 1;
-    }
+    
+      .left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        position: relative;
+    
+        .animation {
+          width: 478px;
+          height: 496px;
+          margin-top: auto;
+        }
+    
+        .circular-icon {
+          position: absolute;
+        }
+    
+        .icc-icon {
+          bottom: 214px;
+          left: 30px;
+        }
+    
+        .jm-icon {
+          bottom: 64px;
+          left: 84px;
+        }
+      }
+    
+      .right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 57px;
+        padding-bottom: 24px;
+    
+        .text {
+          width: 582px;
+          margin-bottom: 93px;
+        }
+    
+        .button {
+          z-index: 1;
+        }
+      }
   }
 }
 </style>

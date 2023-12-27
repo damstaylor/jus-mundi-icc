@@ -7,7 +7,7 @@
     <div class="two-columns">
       <div class="left">
         <CircularIcon :src="imgPath('logo_icc.svg')" alt="ICC logo" size="483px" class="icc-icon" />
-        <CircularIcon :src="imgPath('logo_jm.svg')" alt="JM logo" size="167px" :opacity=".75" class="jm-icon" />
+        <CircularIcon :src="imgPath('logo_jm.svg')" alt="JM logo" size="187px" bg-color="rgba(255, 255, 255, 0.75)" class="jm-icon" />
         <img class="animation" :src="imgPath('case_bg.gif')" alt="Animation" />
       </div>
       <div class="right">
@@ -31,8 +31,6 @@
 <script>
 export default {
   name: 'MainContent',
-  props: {
-  },
   methods: {
     imgPath(filename) {
       return `assets/images/${filename}`
@@ -102,13 +100,13 @@ export default {
     }
 
     .icc-icon {
-      top: -152px;
-      left: 0;
+      bottom: 214px;
+      left: 30px;
     }
 
     .jm-icon {
-      bottom: 72px;
-      left: 0;
+      bottom: 64px;
+      left: 84px;
     }
   }
 

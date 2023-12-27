@@ -10,15 +10,13 @@ export default {
     src: { type: String, default: '' },
     alt: { type: String, default: '' },
     size: { type: String, default: '128px' },
-    backgroundColor: { type: String, default: '#FFFFFF' },
-    opacity: { type: Number, default: 1 },
+    bgColor: { type: String, default: '#FFFFFF' },
   },
   computed: {
     getStyle() {
       return `width: ${this.size};
               height: ${this.size};
-              background-color: ${this.backgroundColor};
-              opacity: ${this.opacity};`
+              background-color: ${this.bgColor};`
     },
   },
 }

@@ -8,7 +8,7 @@
         <p class="quote">Jus Mundi is an indispensable tool to meet the needs of our clients! It is cost-effective and
           gives us access
           to key information to build the winning strategy.</p>
-        <div class="image-wrapper" style="justify-content: end;">
+        <div class="image-wrapper" style="justify-content: flex-end;">
           <img class="image" alt="Quote sign 2" src="assets/images/quote_1.svg" />
         </div>
       </blockquote>

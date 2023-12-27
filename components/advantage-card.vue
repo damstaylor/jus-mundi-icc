@@ -20,6 +20,8 @@ export default {
 <style scoped>
 .advantage-card {
   margin: 32px 0;
+  max-width: 415px;
+  flex: 1;
 
   & img {
     width: 48px;

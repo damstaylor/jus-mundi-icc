@@ -81,6 +81,8 @@ export default {
 
   .advantage-cards {
     display: flex;
+    justify-content: space-between;
+    gap: 32px;
   }
 }
 </style>

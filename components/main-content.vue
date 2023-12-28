@@ -90,12 +90,6 @@ export default {
       align-items: flex-end;
       position: relative;
 
-      .gif-animation {
-        width: 478px;
-        height: 496px;
-        margin-top: auto;
-      }
-
       .circular-icon {
         position: absolute;
       }
@@ -103,11 +97,35 @@ export default {
       .icc-icon {
         bottom: 214px;
         left: 30px;
+        z-index: 1;
+        transform: scale(0);
+        animation: scale-up 1s ease-in-out .1s forwards;
+        /* Step 1 */
+
+        /deep/ & img {
+          opacity: 0;
+          animation: fade-in .8s ease-in-out 1.11s forwards;
+          /* Step 2 */
+        }
       }
 
       .jm-icon {
         bottom: 64px;
         left: 84px;
+        z-index: 1;
+        opacity: 0;
+        animation: fade-in-diagonal .1s ease-in-out 1.91s forwards;
+        /* Step 3 */
+      }
+
+      .gif-animation {
+        width: 478px;
+        height: 496px;
+        margin-top: auto;
+        z-index: 0;
+        opacity: 0;
+        animation: fade-in .5s ease-out 2.01s forwards;
+        /* Step 4 */
       }
     }
 
@@ -121,12 +139,67 @@ export default {
       .text {
         width: 582px;
         margin-bottom: 93px;
+
+        & h1 {
+          opacity: 0;
+          animation: fade-in-up .8s ease-in-out 1.11s forwards;
+          /* Step 2 */
+        }
+
+        & p {
+          opacity: 0;
+          animation: fade-in .8s ease-in-out 1.11s forwards;
+          /* Step 2 */
+        }
       }
 
       .button {
         z-index: 1;
+        opacity: 0;
+        animation: fade-in .5s ease-out 2.01s forwards;
+        /* Step 4 */
       }
     }
+  }
+}
+
+@keyframes scale-up {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-diagonal {
+  from {
+    transform: translate(-100px, 100px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
   }
 }
 </style>

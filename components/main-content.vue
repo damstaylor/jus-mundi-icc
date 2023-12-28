@@ -86,8 +86,6 @@ export default {
 
     .left {
       display: flex;
-      flex-direction: column;
-      align-items: flex-end;
       position: relative;
 
       .circular-icon {

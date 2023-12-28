@@ -131,8 +131,8 @@ export default {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      margin-right: 57px;
-      padding-bottom: 24px;
+      margin: 0 16px;
+      padding: 24px;
 
       .text {
         max-width: 582px;
@@ -171,7 +171,7 @@ export default {
 
       .right {
         align-items: center;
-        margin-right: 0;
+        margin: 0;
       }
     }
   }

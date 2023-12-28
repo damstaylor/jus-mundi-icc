@@ -7,7 +7,7 @@
     <div class="two-columns">
       <div class="left">
         <CircularIcon :src="imgPath('logo_icc.svg')" alt="ICC logo" size="483px" class="icc-icon" />
-        <CircularIcon :src="imgPath('logo_jm.svg')" alt="JM logo" size="187px" bg-color="var(--faded-primary-color)"
+        <CircularIcon :src="imgPath('logo_jm.svg')" alt="JM logo" size="187px" bg-color="var(--faded-primary-bg-color)"
           class="jm-icon" />
         <img class="gif-animation" :src="imgPath('case_bg.gif')" alt="Animation" />
       </div>
@@ -137,7 +137,7 @@ export default {
       padding-bottom: 24px;
 
       .text {
-        width: 582px;
+        max-width: 582px;
         margin-bottom: 93px;
 
         & h1 {

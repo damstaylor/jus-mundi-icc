@@ -132,7 +132,7 @@ export default {
       flex-direction: column;
       align-items: flex-start;
       margin: 0 16px;
-      padding: 24px;
+      padding-bottom: 24px;
 
       .text {
         max-width: 582px;

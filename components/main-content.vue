@@ -102,7 +102,7 @@ export default {
         animation: scale-up 1s ease-in-out .1s forwards;
         /* Step 1 */
 
-        /deep/ & img {
+        &:deep() img {
           opacity: 0;
           animation: fade-in .8s ease-in-out 1.11s forwards;
           /* Step 2 */
@@ -183,7 +183,7 @@ export default {
 
 @keyframes fade-in-up {
   from {
-    transform: translateY(20px);
+    transform: translateY(30px);
     opacity: 0;
   }
   to {
@@ -194,7 +194,7 @@ export default {
 
 @keyframes fade-in-diagonal {
   from {
-    transform: translate(-100px, 100px);
+    transform: translate(-48px, 20px);
     opacity: 0;
   }
   to {

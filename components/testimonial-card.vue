@@ -57,7 +57,7 @@ export default {
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 150%;
         letter-spacing: unset;
         text-transform: none;
         color: var(--primary-text-color);

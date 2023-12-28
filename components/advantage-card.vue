@@ -31,7 +31,7 @@ export default {
 
   & p {
     font-size: 16px;
-    line-height: 24px; /* 150% */
+    line-height: 150%;
   }
 }
 </style>

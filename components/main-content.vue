@@ -86,6 +86,7 @@ export default {
 
     .left {
       display: flex;
+      justify-content: center;
       position: relative;
 
       .circular-icon {
@@ -160,6 +161,46 @@ export default {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .main-content {
+    text-align: center;
+
+    .two-columns {
+      flex-direction: column;
+      gap: 16px;
+
+      .right {
+        align-items: center;
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main-content .two-columns {
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .main-content .two-columns {
+    gap: 16px;
+
+    .left {
+      &:deep() p {
+        margin-top: 16px !important;
+        color: red;
+      }
+
+      &:deep() .circular-icon .icc-icon,
+      &:deep() .gif-animation {
+        transform: scale(80%);
+      }
+    }
+  }
+}
+
 @keyframes scale-up {
   from {
     transform: scale(0);
@@ -173,6 +214,7 @@ export default {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -183,6 +225,7 @@ export default {
     transform: translateY(30px);
     opacity: 0;
   }
+
   to {
     transform: translateY(0);
     opacity: 1;
@@ -194,6 +237,7 @@ export default {
     transform: translate(-48px, 20px);
     opacity: 0;
   }
+
   to {
     transform: translate(0, 0);
     opacity: 1;

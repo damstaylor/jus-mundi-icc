@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer container-margin">
+  <footer class="footer max-w side-margin-auto">
     <div class="footer-content">
       <span>Trusted by the best arbitration teams worldwide</span>
       <Logos :items="items" />

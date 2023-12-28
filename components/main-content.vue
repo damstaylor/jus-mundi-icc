@@ -1,5 +1,5 @@
 <template>
-  <main class="main-content container-margin side-padding">
+  <main class="main-content max-w side-margin-auto side-padding">
     <header>
       <Line />
       <Button text="Try Jus Mundi" :icon="imgPath('ico-arrow_up.svg')" variant="secondary" />
@@ -119,8 +119,7 @@ export default {
       }
 
       .gif-animation {
-        width: 478px;
-        height: 496px;
+        max-width: 478px;
         margin-top: auto;
         z-index: 0;
         opacity: 0;

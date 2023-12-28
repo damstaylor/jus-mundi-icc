@@ -101,10 +101,13 @@ span {
   color: var(--secondary-text-color);
 }
 
-.container-margin {
-  max-width: 1440px;
+.side-margin-auto {
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+.max-w {
+  max-width: 1440px;
 }
 
 .side-padding {

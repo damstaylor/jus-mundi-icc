@@ -45,7 +45,7 @@ export default {
 }
 </script>
 <style>
-@import url('@/public/assets/css/styles.css');
+@import url('@/public/assets/css/styles.scss');
 
 #app {
   text-align: center;

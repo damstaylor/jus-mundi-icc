@@ -85,6 +85,7 @@ export default {
     gap: 48px;
 
     .left {
+      flex: 1;
       display: flex;
       justify-content: center;
       position: relative;
@@ -94,7 +95,7 @@ export default {
       }
 
       .icc-icon {
-        bottom: 214px;
+        top: -133px;
         left: 30px;
         z-index: 1;
         transform: scale(0);
@@ -109,7 +110,7 @@ export default {
       }
 
       .jm-icon {
-        bottom: 64px;
+        top: 313px;
         left: 84px;
         z-index: 1;
         opacity: 0;
@@ -118,6 +119,7 @@ export default {
       }
 
       .gif-animation {
+        width: 100%;
         max-width: 478px;
         margin-top: auto;
         z-index: 0;
@@ -133,9 +135,9 @@ export default {
       align-items: flex-start;
       margin: 0 16px;
       padding-bottom: 24px;
+      flex: 1;
 
       .text {
-        max-width: 582px;
         margin-bottom: 93px;
 
         & h1 {
@@ -161,13 +163,39 @@ export default {
   }
 }
 
+@media screen and (max-width: 1440px) {
+.main-content .text {
+    max-width: 582px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .main-content .two-columns .left {
+    .icc-icon {
+      width: 350px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main-content .two-columns {
+    gap: 24px;
+
+    .left {
+      .jm-icon {
+        top: 190px !important;
+        left: 50px;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   .main-content {
     text-align: center;
 
     .two-columns {
       flex-direction: column;
-      gap: 16px;
 
       .right {
         align-items: center;
@@ -177,26 +205,17 @@ export default {
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .main-content .two-columns {
-    gap: 24px;
-  }
-}
+@media screen and (max-width: 576px) {
+  .main-content .two-columns .left {
+    .icc-icon {
+      width: 250px !important;
+      top: -80px;
+      left: 0px;
+    }
 
-@media screen and (max-width: 1280px) {
-  .main-content .two-columns {
-    gap: 16px;
-
-    .left {
-      &:deep() p {
-        margin-top: 16px !important;
-        color: red;
-      }
-
-      &:deep() .circular-icon .icc-icon,
-      &:deep() .gif-animation {
-        transform: scale(80%);
-      }
+    .jm-icon {
+      width: 130px !important;
+      top: 100px !important;
     }
   }
 }
@@ -205,6 +224,7 @@ export default {
   from {
     transform: scale(0);
   }
+
   to {
     transform: scale(1);
   }

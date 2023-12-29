@@ -38,7 +38,7 @@ export default {
 
   & figure {
     margin: 32px 0;
-    padding: 16 24px;
+    padding: 16px 24px;
 
     & blockquote {
       display: flex;
@@ -73,6 +73,12 @@ export default {
     & a:not(:hover) {
       color: var(--secondary-text-color);
     }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .testimonial-card figure blockquote {
+    margin-bottom: 16px;
   }
 }
 </style>

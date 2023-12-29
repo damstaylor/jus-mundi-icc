@@ -52,9 +52,16 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 32px;
 }
 
 .content-wrapper {
   width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  #app {
+    margin: 16px;
+  }
 }
 </style>

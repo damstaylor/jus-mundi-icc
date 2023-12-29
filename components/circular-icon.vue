@@ -15,7 +15,6 @@ export default {
   computed: {
     getStyle() {
       return `width: ${this.size};
-              height: ${this.size};
               background-color: ${this.bgColor};`
     },
   },
@@ -26,6 +25,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  aspect-ratio: 1/1;
   border-radius: 50%;
   box-shadow: 0px 0px 128px 0px rgba(0, 0, 0, 0.10);
 

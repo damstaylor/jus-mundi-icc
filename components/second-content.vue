@@ -85,4 +85,11 @@ export default {
     gap: 32px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .second-content .advantage-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 </style>

@@ -102,8 +102,8 @@ span {
 }
 
 .side-margin-auto {
-  margin-left: auto !important;
-  margin-right: auto !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .max-w {
@@ -111,8 +111,8 @@ span {
 }
 
 .side-padding {
-  padding-left: 64px !important;
-  padding-right: 64px !important;
+  padding-left: 64px;
+  padding-right: 64px;
 }
 
 .quote {
@@ -126,4 +126,71 @@ span {
 
 .bold {
   font-weight: 700 !important;
+}
+
+@media screen and (max-width: 1280px) {
+  h1 {
+    font-size: 40px;
+    line-height: 125%;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 114%;
+  }
+
+  p, .advantage-card p {
+    font-size: 14px;
+  }
+
+  .max-w {
+    max-width: 1280px;
+  }
+
+  .side-padding {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 20px;
+    line-height: 108%;
+  }
+
+  .max-w {
+    max-width: 1024px;
+  }
+
+  .side-padding {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .max-w {
+    max-width: 768px;
+  }
+
+  .side-padding {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .max-w {
+    max-width: 640px;
+  }
+
+  .side-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }

@@ -2,7 +2,7 @@
   <div class="line" :style="getStyle">
   </div>
 </template>
-<script scoped>
+<script>
 export default {
   name: 'Line',
   props: {
@@ -23,7 +23,7 @@ export default {
   },
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
 .line {
   background-color: var(--tertiary-color);
 }

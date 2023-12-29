@@ -3,7 +3,7 @@
     <img v-if="icon" :src="icon" />{{ text }}
   </button>
 </template>
-<script scoped>
+<script>
 export default {
   name: 'Button',
   props: {
@@ -13,7 +13,7 @@ export default {
   },
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
 .button {
   font-family: Lato;
   font-size: 14px;
@@ -39,7 +39,7 @@ export default {
   &:not(:disabled) {
     cursor: pointer;
     
-    & img {
+    img {
       width: 12px;
       height: 12px;
       padding: 6px;
@@ -59,7 +59,7 @@ export default {
     padding: 16px;
     gap: 16px;
     
-    & img {
+    img {
       width: 16px;
       height: 16px;
       padding: 0;

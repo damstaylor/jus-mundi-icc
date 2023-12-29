@@ -2,7 +2,7 @@
   <div class="newsfeed">
     <div class="header">
       <h4>Newsfeed</h4>
-      <h2>ICC International Court of Arbitration News & Links</h2>
+      <h2>ICC International Court of Arbitration News Links</h2>
     </div>
     <div class="slider-container">
       <div class="slider">
@@ -24,7 +24,7 @@ export default {
   },
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
 .newsfeed {
   background-color: var(--secondary-bg-color);
   padding: 32px 0;

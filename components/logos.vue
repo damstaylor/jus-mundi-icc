@@ -5,7 +5,7 @@
     </div>
   </div>
 </template>
-<script scoped>
+<script>
 export default {
   name: 'Logos',
   props: {
@@ -13,7 +13,7 @@ export default {
   },
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
 .logos {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));

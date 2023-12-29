@@ -14,7 +14,7 @@ export default {
   },
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
 .mini-card {
   width: 336px;
   height: 144px;
@@ -45,7 +45,7 @@ export default {
     margin-bottom: 8px;
   }
 
-  & a.read-more {
+  a.read-more {
     text-transform: none;
     font-weight: 400;
     letter-spacing: 0;

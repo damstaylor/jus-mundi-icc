@@ -39,16 +39,16 @@ export default {
   },
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
 .main-content {
   text-align: start;
 
-  & p {
+  p {
     text-align: inherit;
     margin-top: 32px;
   }
 
-  & header {
+  header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -56,7 +56,7 @@ export default {
     margin-bottom: 78px;
   }
 
-  & footer {
+  footer {
     display: flex;
     height: 120px;
     margin-top: -55px;
@@ -71,7 +71,7 @@ export default {
     padding-bottom: 53px;
   }
 
-  & .gradient-rectangle {
+  .gradient-rectangle {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #F5F5F5 69.79%);
     position: absolute;
     right: 0;
@@ -140,13 +140,13 @@ export default {
       .text {
         margin-bottom: 93px;
 
-        & h1 {
+        h1 {
           opacity: 0;
           animation: fade-in-up .8s ease-in-out 1.11s forwards;
           /* Step 2 */
         }
 
-        & p {
+        p {
           opacity: 0;
           animation: fade-in .8s ease-in-out 1.11s forwards;
           /* Step 2 */

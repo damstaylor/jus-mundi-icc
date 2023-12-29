@@ -17,21 +17,27 @@ export default {
   },
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
 .advantage-card {
   margin: 32px 0;
   max-width: 415px;
   flex: 1;
 
-  & img {
+  img {
     width: 48px;
     height: 48px;
     margin-bottom: 17px;
   }
 
-  & p {
+  p {
     font-size: 16px;
     line-height: 150%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .advantage-card p {
+    font-size: 14px;
   }
 }
 </style>

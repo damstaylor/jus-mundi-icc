@@ -15,7 +15,7 @@ export default {
   },
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
 .footer-content {
   margin: 32px 64px;
 }

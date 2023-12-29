@@ -7,14 +7,14 @@
         <h1>Why this partnership?</h1>
         <Line />
       </div>
-      <section class="ps">
+      <div class="ps">
         <p>Throughout its 100-year history, ICC has brought global business together to support an international
           rules-based
           order, including the promotion of global trade and commerce through the work of the ICC International Court of
           Arbitration.</p>
         <p>ICC has partnered with Jus Mundi to provide full public access to all publishable ICC International Court of
           Arbitration awards and related documents made as of 1 January 2019</p>
-      </section>
+      </div>
     </div>
     <div class="advantage-cards">
       <AdvantageCard v-for="(adv, idx) in advantages" v-bind="adv" :key="`ac-${idx}`" />
@@ -49,19 +49,19 @@ export default {
   },
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
 .second-content {
   margin-top: 38px;
   margin-bottom: 32px;
 
-  & section {
+  .ps {
     display: flex;
     flex-direction: column;
     justify-content: center;
     max-width: 862px;
     margin: auto;
 
-    & p {
+    p {
       margin-bottom: 32px;
     }
   }
@@ -87,9 +87,12 @@ export default {
 }
 
 @media screen and (max-width: 768px) {
-  .second-content .advantage-cards {
-    flex-direction: column;
-    align-items: center;
+  .second-content {
+    .advantage-cards {
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+    }
   }
 }
 </style>

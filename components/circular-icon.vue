@@ -3,7 +3,7 @@
     <img :src="src" :alt="alt" />
   </div>
 </template>
-<script scoped>
+<script>
 export default {
   name: 'CircularIcon',
   props: {
@@ -20,7 +20,7 @@ export default {
   },
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
 .circular-icon {
   display: flex;
   align-items: center;
@@ -29,7 +29,7 @@ export default {
   border-radius: 50%;
   box-shadow: 0px 0px 128px 0px rgba(0, 0, 0, 0.10);
 
-  & img {
+  img {
     width: 60%;
     object-fit: contain;
   }

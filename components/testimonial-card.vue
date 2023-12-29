@@ -27,7 +27,7 @@ export default {
   name: 'TestimonialCard',
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
 .testimonial-card {
   display: flex;
   flex-direction: column;
@@ -36,11 +36,11 @@ export default {
   margin: 38px auto;
   padding: 0 24px 24px;
 
-  & figure {
+  figure {
     margin: 32px 0;
     padding: 16px 24px;
 
-    & blockquote {
+    blockquote {
       display: flex;
       margin: 0;
       padding: 0 24px;
@@ -51,8 +51,8 @@ export default {
       }
     }
 
-    & figcaption {
-      & span {
+    figcaption {
+      span {
         font-family: 'IBM Plex Sans';
         font-size: 16px;
         font-style: normal;
@@ -70,7 +70,7 @@ export default {
     text-align: right;
     margin: 0 96px;
 
-    & a:not(:hover) {
+    a:not(:hover) {
       color: var(--secondary-text-color);
     }
   }

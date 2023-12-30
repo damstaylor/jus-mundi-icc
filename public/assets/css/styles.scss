@@ -1,6 +1,7 @@
 @import url(./font_ibm_plex_sans.scss);
 @import url(./font_larken.scss);
 @import url(./font_lato.scss);
+@import url(./media-queries.scss);
 
 :root {
   --primary-color: #009EFE;
@@ -154,71 +155,4 @@ span {
 
 .bold {
   font-weight: 700 !important;
-}
-
-@media screen and (max-width: 1280px) {
-  h1 {
-    font-size: var(--font-size-xxxl);
-    line-height: var(--line-height-3);
-  }
-
-  h2 {
-    font-size: var(--font-size-l);
-    line-height: var(--line-height-2);
-  }
-
-  p, .advantage-card p {
-    font-size: var(--font-size-xs);
-  }
-
-  .max-w {
-    max-width: var(--screen-width-l);
-  }
-
-  .side-padding {
-    padding-left: 48px;
-    padding-right: 48px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  h1 {
-    font-size: var(--font-size-xl);
-  }
-
-  h2 {
-    font-size: var(--font-size-l);
-    line-height: var(--line-height-1);
-  }
-
-  .max-w {
-    max-width: 1024px;
-  }
-
-  .side-padding {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .max-w {
-    max-width: 768px;
-  }
-
-  .side-padding {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .max-w {
-    max-width: 640px;
-  }
-
-  .side-padding {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
 }

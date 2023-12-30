@@ -71,7 +71,6 @@ export default {
     display: flex;
     height: 120px;
     margin-top: -55px;
-    /* To be improved */
   }
 
   .line-container {
@@ -87,7 +86,7 @@ export default {
     position: absolute;
     right: 0;
     width: 100vw;
-    height: 120px;
+    height: inherit;
   }
 
   .two-columns {

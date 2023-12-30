@@ -1,4 +1,4 @@
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: var(--screen-width-l)) {
   h1 {
     font-size: var(--font-size-xxxl);
     line-height: var(--line-height-3);
@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: var(--screen-width-m)) {
   h1 {
     font-size: var(--font-size-xl);
   }
@@ -34,7 +34,7 @@
   }
 
   .max-w {
-    max-width: 1024px;
+    max-width: var(--screen-width-m);
   }
 
   .side-padding {
@@ -43,9 +43,9 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: var(--screen-width-s)) {
   .max-w {
-    max-width: 768px;
+    max-width: var(--screen-width-s);
   }
 
   .side-padding {
@@ -54,9 +54,9 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: var(--screen-width-xs)) {
   .max-w {
-    max-width: 640px;
+    max-width: var(--screen-width-xs);
   }
 
   .side-padding {

@@ -1,47 +1,8 @@
-@import url(./font_ibm_plex_sans.scss);
-@import url(./font_larken.scss);
-@import url(./font_lato.scss);
-@import url(./media-queries.scss);
-
-:root {
-  --primary-color: #009EFE;
-  --secondary-color: #3D8CBC;
-  --tertiary-color: #6AD300;
-  --white: #FFFFFF;
-  --primary-text-color: #2C2B2E;
-  --secondary-text-color: #818487;
-  --primary-bg-color: #FFFFFF;
-  --faded-primary-bg-color: rgba(255, 255, 255, 0.75);
-  --secondary-bg-color: #F4F6F8;
-
-  --font-size-xs: 14px;
-  --font-size-s: 16px;
-  --font-size-m: 18px;
-  --font-size-l: 20px;
-  --font-size-xl: 28px;
-  --font-size-xxl: 32px;
-  --font-size-xxxl: 40px;
-  --font-size-xxxxl: 56px;
-
-  --line-height-0: normal;
-  --line-height-1: 108%;
-  --line-height-2: 114%;
-  --line-height-3: 125%;
-  --line-height-4: 178%;
-
-  --unit-xs: 8px;
-  --unit-s: 16px;
-  --unit-m: 24px;
-  --unit-l: 32px;
-  --unit-xl: 48px;
-  --unit-xxl: 64px;
-
-  --screen-width-xs: 640px;
-  --screen-width-s: 768px;
-  --screen-width-m: 1024px;
-  --screen-width-l: 1280px;
-  --screen-width-xl: 1440px;
-}
+@import url('./variables.scss');
+@import url('./font_ibm_plex_sans.scss');
+@import url('./font_larken.scss');
+@import url('./font_lato.scss');
+@import url('./media-queries.scss');
 
 body {
   color: var(--primary-text-color);

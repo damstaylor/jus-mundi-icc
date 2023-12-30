@@ -26,7 +26,7 @@ export default {
   background-color: var(--primary-bg-color);
   box-shadow: rgba(44, 43, 46, 0.05) 4px 4px 24px 0px;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: var(--font-size-s);
   line-height: 150%;
   cursor: pointer;
 

@@ -40,6 +40,8 @@ export default {
 }
 </script>
 <style scoped lang="scss">
+@import '../public/assets/css/animations.scss';
+
 .main-content {
   text-align: start;
 
@@ -180,7 +182,7 @@ export default {
       }
 
       .icc-icon {
-        width: 350px;
+        width: 350px !important;
       }
     }
   }
@@ -240,46 +242,6 @@ export default {
     .jm-icon {
       top: 150px;
     }
-  }
-}
-
-@keyframes scale-up {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
-}
-
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fade-in-up {
-  from {
-    transform: translateY(30px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes fade-in-diagonal {
-  from {
-    transform: translate(-48px, 20px);
-    opacity: 0;
-  }
-  to {
-    transform: translate(0, 0);
-    opacity: 1;
   }
 }
 </style>

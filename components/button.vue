@@ -16,10 +16,10 @@ export default {
 <style scoped lang="scss">
 .button {
   font-family: Lato;
-  font-size: 14px;
+  font-size: var(--font-size-xs);
   font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  line-height: var(--line-height-0);
   letter-spacing: 2px;
   text-transform: uppercase;
   border: unset;
@@ -41,7 +41,7 @@ export default {
     
     img {
       width: 12px;
-      height: 12px;
+      aspect-ratio: 1/1;
       padding: 6px;
     };
   }
@@ -61,7 +61,7 @@ export default {
     
     img {
       width: 16px;
-      height: 16px;
+      aspect-ratio: 1/1;
       padding: 0;
     }
   }

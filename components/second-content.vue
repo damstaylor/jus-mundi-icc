@@ -24,8 +24,6 @@
 <script>
 export default {
   name: 'SecondContent',
-  props: {
-  },
   data() {
     return {
       advantages: [

@@ -54,7 +54,7 @@ export default {
     figcaption {
       span {
         font-family: 'IBM Plex Sans';
-        font-size: 16px;
+        font-size: var(--font-size-s);
         font-style: normal;
         font-weight: 400;
         line-height: 150%;

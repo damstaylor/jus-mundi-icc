@@ -25,19 +25,19 @@ export default {
 
   img {
     width: 48px;
-    height: 48px;
+    aspect-ratio: 1/1;
     margin-bottom: 17px;
   }
 
   p {
-    font-size: 16px;
+    font-size: var(--font-size-s);
     line-height: 150%;
   }
 }
 
 @media screen and (max-width: 1280px) {
   .advantage-card p {
-    font-size: 14px;
+    font-size: var(--font-size-xs);
   }
 }
 </style>

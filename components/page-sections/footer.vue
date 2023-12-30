@@ -7,9 +7,13 @@
   </footer>
 </template>
 <script>
+import Logos from '../functional/logos.vue'
 
 export default {
   name: 'Footer',
+  components: {
+    Logos,
+  },
   props: {
     items: { type: Array, default: () => [] },
   },

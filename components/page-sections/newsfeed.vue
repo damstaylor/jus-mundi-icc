@@ -17,8 +17,13 @@
   </div>
 </template>
 <script>
+import MiniCard from '../functional/mini-card.vue'
+
 export default {
   name: 'Newsfeed',
+  components: {
+    MiniCard,
+  },
   props: {
     articles: { type: Array, default: () => [] },
   },

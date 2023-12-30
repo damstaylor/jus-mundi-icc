@@ -30,8 +30,17 @@
   </main>
 </template>
 <script>
+import Button from '../functional/button.vue'
+import CircularIcon from '../functional/circular-icon.vue'
+import Line from '../functional/line.vue'
+
 export default {
   name: 'MainContent',
+  components: {
+    Button,
+    CircularIcon,
+    Line,
+  }, 
   methods: {
     imgPath(filename) {
       return `assets/images/${filename}`

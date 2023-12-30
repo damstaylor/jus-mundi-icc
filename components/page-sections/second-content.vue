@@ -22,8 +22,17 @@
   </div>
 </template>
 <script>
+import AdvantageCard from '../functional/advantage-card.vue'
+import TestimonialCard from '../functional/testimonial-card.vue'
+import Line from '../functional/line.vue'
+
 export default {
   name: 'SecondContent',
+  components: {
+    AdvantageCard,
+    Line,
+    TestimonialCard,
+  },
   data() {
     return {
       advantages: [

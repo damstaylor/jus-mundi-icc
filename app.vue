@@ -9,8 +9,19 @@
   </div>
 </template>
 <script>
+import MainContent from './components/page-sections/main-content.vue'
+import SecondContent from './components/page-sections/second-content.vue'
+import Newsfeed from './components/page-sections/newsfeed.vue'
+import Footer from './components/page-sections/footer.vue'
+
 export default {
   name: 'App',
+  components: {
+    Footer,
+    MainContent,
+    Newsfeed,
+    SecondContent,
+  },
   data() {
     return {
       logos: [
@@ -59,7 +70,7 @@ export default {
   width: 100%;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: var(--screen-width-xs)) {
   #app {
     margin: 16px 0;
   }

@@ -77,9 +77,15 @@ export default {
 }
 
 @media screen and (max-width: 768px) {
-  .testimonial-card figure blockquote {
-    margin-bottom: 16px;
-    padding: 0;
+  .testimonial-card {
+    figure blockquote {
+      margin-bottom: 16px;
+      padding: 0;
+    }
+
+    .all-testimonials {
+      text-align: center;
+    }
   }
 }
 </style>

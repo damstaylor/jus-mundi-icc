@@ -17,7 +17,8 @@
   </div>
 </template>
 <script>
-import MiniCard from '../functional/mini-card.vue'
+import './newsfeed.scss'
+import MiniCard from '../../functional/mini-card/mini-card.vue'
 
 export default {
   name: 'Newsfeed',
@@ -29,32 +30,3 @@ export default {
   },
 }
 </script>
-<style scoped lang="scss">
-.newsfeed {
-  background-color: var(--secondary-bg-color);
-  padding: 32px 0;
-
-  .slider-container {
-    margin: 16px 0;
-
-    .slider {
-      display: flex;
-      margin: 14px 0;
-      padding: 64px 0;
-      overflow: scroll;
-      position: relative;
-      white-space: nowrap;
-
-      /* Hide scrollbar */
-      &::-webkit-scrollbar {
-        width: 0px;
-      }
-
-      .mini-cards {
-        display: flex;
-        margin: 0 64px;
-      }
-    }
-  }
-}
-</style>

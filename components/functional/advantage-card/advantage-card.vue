@@ -8,6 +8,8 @@
   </div>
 </template>
 <script>
+import './advantage-card.scss';
+
 export default {
   name: 'AdvantageCard',
   props: {
@@ -17,27 +19,3 @@ export default {
   },
 }
 </script>
-<style scoped lang="scss">
-.advantage-card {
-  margin: 32px 0;
-  max-width: 415px;
-  flex: 1;
-
-  img {
-    width: 48px;
-    aspect-ratio: 1/1;
-    margin-bottom: 17px;
-  }
-
-  p {
-    font-size: var(--font-size-s);
-    line-height: 150%;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .advantage-card p {
-    font-size: var(--font-size-xs);
-  }
-}
-</style>

@@ -1,5 +1,5 @@
 /* Screen width <= 1280px */
-@media screen and (max-width: var(--screen-width-l)) {
+@media screen and (max-width: 1280px) {
   h1 {
     font-size: var(--font-size-xxxl);
     line-height: var(--line-height-3);
@@ -15,7 +15,7 @@
   }
 
   .max-w {
-    max-width: var(--screen-width-l);
+    max-width: 1280px;
   }
 
   .side-padding {
@@ -25,7 +25,7 @@
 }
 
 /* Screen width <= 1024px */
-@media screen and (max-width: var(--screen-width-m)) {
+@media screen and (max-width: 1024px) {
   h1 {
     font-size: var(--font-size-xl);
   }
@@ -36,7 +36,7 @@
   }
 
   .max-w {
-    max-width: var(--screen-width-m);
+    max-width: 1024px;
   }
 
   .side-padding {
@@ -46,9 +46,9 @@
 }
 
 /* Screen width <= 768px */
-@media screen and (max-width: var(--screen-width-s)) {
+@media screen and (max-width: 768px) {
   .max-w {
-    max-width: var(--screen-width-s);
+    max-width: 768px;
   }
 
   .side-padding {
@@ -58,9 +58,9 @@
 }
 
 /* Screen width <= 640px */
-@media screen and (max-width: var(--screen-width-xs)) {
+@media screen and (max-width: 640px) {
   .max-w {
-    max-width: var(--screen-width-xs);
+    max-width: 640px;
   }
 
   .side-padding {

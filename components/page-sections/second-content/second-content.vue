@@ -22,9 +22,10 @@
   </div>
 </template>
 <script>
-import AdvantageCard from '../functional/advantage-card.vue'
-import TestimonialCard from '../functional/testimonial-card.vue'
-import Line from '../functional/line.vue'
+import './second-content.scss'
+import AdvantageCard from '../../functional/advantage-card/advantage-card.vue'
+import TestimonialCard from '../../functional/testimonial-card/testimonial-card.vue'
+import Line from '../../functional/line/line.vue'
 
 export default {
   name: 'SecondContent',
@@ -56,50 +57,3 @@ export default {
   },
 }
 </script>
-<style scoped lang="scss">
-.second-content {
-  margin-top: 38px;
-  margin-bottom: 32px;
-
-  .ps {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 862px;
-    margin: auto;
-
-    p {
-      margin-bottom: 32px;
-    }
-  }
-
-  .heading {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 32px;
-
-    .line {
-      background-color: var(--tertiary-color);
-      height: 2px;
-      width: 24px;
-    }
-  }
-
-  .advantage-cards {
-    display: flex;
-    justify-content: space-between;
-    gap: 32px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .second-content {
-    .advantage-cards {
-      flex-direction: column;
-      align-items: center;
-      gap: 0;
-    }
-  }
-}
-</style>

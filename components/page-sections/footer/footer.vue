@@ -7,7 +7,8 @@
   </footer>
 </template>
 <script>
-import Logos from '../functional/logos.vue'
+import Logos from '../../functional/logos/logos.vue'
+import './footer.scss'
 
 export default {
   name: 'Footer',
@@ -19,8 +20,3 @@ export default {
   },
 }
 </script>
-<style scoped lang="scss">
-.footer-content {
-  margin: 32px 64px;
-}
-</style>

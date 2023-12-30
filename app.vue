@@ -9,10 +9,11 @@
   </div>
 </template>
 <script>
-import MainContent from './components/page-sections/main-content.vue'
-import SecondContent from './components/page-sections/second-content.vue'
-import Newsfeed from './components/page-sections/newsfeed.vue'
-import Footer from './components/page-sections/footer.vue'
+import './app.scss'
+import MainContent from './components/page-sections/main-content/main-content.vue'
+import SecondContent from './components/page-sections/second-content/second-content.vue'
+import Newsfeed from './components/page-sections/newsfeed/newsfeed.vue'
+import Footer from './components/page-sections/footer/footer.vue'
 
 export default {
   name: 'App',
@@ -50,29 +51,8 @@ export default {
   },
   computed: {
     getLogoAttributes() {
-      return this.logos.map(str => ({ src: `./assets/logos/${str}.svg`, alt: str }))
+      return this.logos.map(str => ({ src: `assets/logos/${str}.svg`, alt: str }))
     },
   },
 }
 </script>
-<style>
-@import url('@/public/assets/css/styles.scss');
-
-#app {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 32px 0;
-}
-
-.content-wrapper {
-  width: 100%;
-}
-
-@media screen and (max-width: var(--screen-width-xs)) {
-  #app {
-    margin: 16px 0;
-  }
-}
-</style>

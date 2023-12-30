@@ -1,19 +1,3 @@
-<template>
-  <button :class="`button ${variant}`">
-    <img v-if="icon" :src="icon" />{{ text }}
-  </button>
-</template>
-<script>
-export default {
-  name: 'Button',
-  props: {
-    text: { type: String, default: '' },
-    icon: { type: String, default: '' },
-    variant: { type: String, default: 'primary' },
-  },
-}
-</script>
-<style scoped lang="scss">
 .button {
   font-family: Lato;
   font-size: var(--font-size-xs);
@@ -66,4 +50,3 @@ export default {
     }
   }
 }
-</style>

@@ -4,6 +4,8 @@
   </div>
 </template>
 <script>
+import './circular-icon.scss'
+
 export default {
   name: 'CircularIcon',
   props: {
@@ -20,18 +22,3 @@ export default {
   },
 }
 </script>
-<style scoped lang="scss">
-.circular-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  aspect-ratio: 1/1;
-  border-radius: 50%;
-  box-shadow: 0px 0px 128px 0px rgba(0, 0, 0, 0.10);
-
-  img {
-    width: 60%;
-    object-fit: contain;
-  }
-}
-</style>

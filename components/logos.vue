@@ -1,6 +1,6 @@
 <template>
   <div class="logos">
-    <div v-for="(item, key) in items" :key="_uid + key" class="img-container">
+    <div v-for="(item, key) in items" :key="`logo-${key}`" class="img-container">
       <img :src="item.src" :alt="item.alt" />
     </div>
   </div>

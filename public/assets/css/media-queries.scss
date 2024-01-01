@@ -10,10 +10,6 @@
     line-height: var(--line-height-2);
   }
 
-  p, .advantage-card p {
-    font-size: var(--font-size-xs);
-  }
-
   .max-w {
     max-width: 1280px;
   }
@@ -33,6 +29,10 @@
   h2 {
     font-size: var(--font-size-l);
     line-height: var(--line-height-1);
+  }
+
+  p {
+    font-size: var(--font-size-xs);
   }
 
   .max-w {

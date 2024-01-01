@@ -17,7 +17,7 @@
   box-shadow: 0px 8px 32px 0px rgba(37, 79, 109, 0.24);
 
   &:hover {
-    opacity: .75;
+    opacity: .75 !important;
   }
 
   &:not(:disabled) {

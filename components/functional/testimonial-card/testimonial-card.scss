@@ -32,19 +32,6 @@
         align-items: flex-start; justify-content: flex-end;
       }
     }
-
-    figcaption {
-      span {
-        font-family: 'IBM Plex Sans';
-        font-size: var(--font-size-s);
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
-        letter-spacing: unset;
-        text-transform: none;
-        color: var(--primary-text-color);
-      }
-    }
   }
 
   .all-testimonials {

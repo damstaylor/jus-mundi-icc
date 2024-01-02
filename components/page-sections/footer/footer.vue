@@ -1,7 +1,7 @@
 <template>
   <footer class="footer max-w side-margin-auto">
     <div class="footer-content">
-      <span>Trusted by the best arbitration teams worldwide</span>
+      <h5>Trusted by the best arbitration teams worldwide</h5>
       <Logos :items="items" />
     </div>
   </footer>

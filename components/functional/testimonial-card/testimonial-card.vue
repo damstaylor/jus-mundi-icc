@@ -14,7 +14,7 @@
       </blockquote>
       <figcaption>
         <span class="author-name bold">Dietmar W. Prager</span>
-        <span class="author-function span"> – Co-Chair of Dechert’s International Arbitration global practice</span>
+        <span class="author-function"> – Co-Chair of Dechert’s International Arbitration global practice</span>
       </figcaption>
     </figure>
     <div class="all-testimonials">

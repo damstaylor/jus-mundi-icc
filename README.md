@@ -1,3 +1,23 @@
+# Jus Mundi ICC responsive page
+
+<table>
+    <tr><img src="public/screenshots/desktop-1.png" alt="Desktop 1"></tr>
+    <tr><img src="public/screenshots/desktop-2.png" alt="Desktop 2"></tr>
+    <tr><img src="public/screenshots/desktop-3.png" alt="Desktop 3"></tr>
+  <tr>
+    <td colspan="2"><img src="public/screenshots/tablet-1.png" alt="Tablet 1"></td>
+    <td colspan="2"><img src="public/screenshots/tablet-2.png" alt="Tablet 2"></td>
+  </tr>
+  <tr>
+    <td><img src="public/screenshots/mobile-1.png" alt="Mobile 1"></td>
+    <td><img src="public/screenshots/mobile-2.png" alt="Mobile 2"></td>
+    <td><img src="public/screenshots/mobile-3.png" alt="Mobile 3"></td>
+    <td><img src="public/screenshots/mobile-4.png" alt="Mobile 4"></td>
+  </tr>
+</table>
+
+---
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.

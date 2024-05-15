@@ -16,6 +16,7 @@
   .frame {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 16px 24px;
     height: 100%;
     overflow: hidden;
@@ -32,6 +33,7 @@
     text-transform: none;
     font-weight: 400;
     letter-spacing: 0;
+    padding: 0 8px 0 0;
     
     &:hover {
       color: unset;

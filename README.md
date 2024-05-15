@@ -1,5 +1,7 @@
 # Jus Mundi ICC responsive page
 
+Try it [here](https://ds-jus-mundi-icc.netlify.app)!
+
 <table>
     <tr><img src="public/screenshots/desktop-1.png" alt="Desktop 1"></tr>
     <tr><img src="public/screenshots/desktop-2.png" alt="Desktop 2"></tr>
